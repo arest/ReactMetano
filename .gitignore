@@ -1,0 +1,40 @@
+/build/
+/bin/
+/.rsync_cache/
+/config/*
+/src/config.js
+/npm-debug.log
+/style.css
+/main.js
+
+# Mac OS #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.map
+
+# Bundler
+.bundle/
+
+# Un po' di IDE #
+nbproject/
+.idea/
+*.tmproj
+.buildpath
+.project
+.settings
+*.scssc
+*.sublime-project
+*.sublime-workspace
+
+# Caches
+#######################
+.sass-cache
+/node_modules
+**/.sass-cache
+**/sprites
